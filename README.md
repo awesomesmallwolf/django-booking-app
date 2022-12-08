@@ -1,28 +1,26 @@
- Django Booking
- ===============
+Django Booking
+===============
 
 Django Booking is a Complete Django booking system.
 
-Overview
-===============
+# Overview
 
 what you get:
-   - A booking page which users can book appointments.
-   - A dashboard which the admin can see the bookings and make actions
 
-Requirements
-============
+- A booking page which users can book appointments.
+- A dashboard which the admin can see the bookings and make actions
+
+# Requirements
+
 Django Booking requires Django 3 or later.
 
-Getting It
-==========
+# Getting It
 
 Python package::
 
     $ pip install dj-booking
 
-Installing it
-=============
+# Installing it
 
 To enable `dj-booking` in your project you need to add it to `INSTALLED_APPS` in your projects
 `settings.py` file::
@@ -34,7 +32,7 @@ To enable `dj-booking` in your project you need to add it to `INSTALLED_APPS` in
     )
 
 And include dj-booking to your URLs::
-    
+
     from django.urls import path, include
 
 
@@ -44,8 +42,8 @@ And include dj-booking to your URLs::
         ...
     )
 
-Using It
-========
+# Using It
+
     $ python manage.py migrate
     $ python manage.py runserver
 
@@ -54,11 +52,11 @@ then you can visit the pages::
 - Booking page: http://localhost:8000/booking
 - Admin page: http://localhost:8000/booking/admin
 
-Configuration
-=============
+# Configuration
+
 Add this vars to settings.py
 
-  .. code-block:: python
+.. code-block:: python
 
     BOOKING_TITLE = "Your title"
     BOOKING_DESC = "Your description"
@@ -67,27 +65,25 @@ Add this vars to settings.py
     BOOKING_SUCCESS_REDIRECT_URL = "Success redirect url"
     BOOKING_DISABLE_URL = "Redirect to this url if create booking is disable"
 
-The App
-=======
+# The App
 
 - booking page
 
-  ![booking page](https://github.com/foad-heidari/dj-booking/blob/main/docs/img/1.png?raw=true)
+  ![booking page](https://github.com/fredcarterwolf/django-booking-app/blob/main/docs/img/1.png?raw=true)
 
 - Admin Page
 
-  ![booking page](https://github.com/foad-heidari/dj-booking/blob/main/docs/img/2.png?raw=true)
-  
+  ![booking page](https://github.com/fredcarterwolf/django-booking-app/blob/main/docs/img/2.png?raw=true)
 
-Getting Involved
-================
+# Getting Involved
+
 Open Source projects can always use more help. Fixing a problem, documenting a feature, adding
 translation in your language. If you have some time to spare and like to help us, here are the places to do so:
 
-- GitHub: https://github.com/foad-heidari/dj-booking
+- GitHub: https://github.com/fredcarterwolf/django-booking-app
 
-Documentation
-=============
+# Documentation
+
 You can view the documentation online at:
 
 - https://dj-booking.readthedocs.io
@@ -95,8 +91,7 @@ You can view the documentation online at:
 
 Or you can look at the docs/ directory in the repository.
 
-Support
-=======
+# Support
 
 Django Booking is free and always will be. It is developed and maintained by developers in an Open Source manner.
 Any support is welcome. You could help by writing documentation, pull-requests, report issues and/or translations.

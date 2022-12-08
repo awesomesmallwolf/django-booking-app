@@ -70,7 +70,7 @@ Getting Involved
 Open Source projects can always use more help. Fixing a problem, documenting a feature, adding
 translation in your language. If you have some time to spare and like to help us, here are the places to do so:
 
-- GitHub: https://github.com/foad-heidari/dj-booking
+- GitHub: https://github.com/fredcarterwolf/django-booking-app
 
 Documentation
 =============
